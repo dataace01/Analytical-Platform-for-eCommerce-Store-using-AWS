@@ -5,7 +5,7 @@ a certain shop. Analysts can then utilize this information to deduce changes in 
 behavior and online shopping patterns. Ecommerce analytics spans the whole customer
 journey, from discovery through acquisition, conversion, and eventually retention and
 support.
-In this project, we will use an eCommerce dataset to simulate the logs of user
+In this project, I will use an eCommerce dataset to simulate the logs of user
 purchases, product views, cart history, and the user’s journey on the online platform to
 create two analytical pipelines, Batch and Real-time. The Batch processing will involve
 data ingestion, Lake House architecture, processing, visualization using Amazon
@@ -31,7 +31,7 @@ row in the file represents one of the following event types:
 - Cart
 - Removed from Cart
 - Purchase
-Tech Stack:
+## Tech Stack:
 ➔ Languages-
 - SQL, Python3
 ➔ Services -
@@ -86,7 +86,7 @@ preparation, DataBrew helps minimize the time it takes to prepare data for analy
 machine learning. Many pre-built transformations are available to automate data
 preparation activities such as screening anomalies, transforming data to standard
 formats, and rectifying erroneous values.
-Amazon DynamoDB
+# Amazon DynamoDB
 Amazon DynamoDB is a fully managed key-value NoSQL database service that
 delivers quick and predictable performance while also allowing for seamless scaling.
 DynamoDB relieves developers of the administrative responsibilities associated with
@@ -113,4 +113,6 @@ Key Takeaways
 - Integrating Lambda and Kinesis
 - Performing ETL for Parquet format using Glue DataBrew and Spark
 - Creating QuickSight Dashboards
-Architecture
+## Architecture
+![Architecture](https://user-images.githubusercontent.com/94673026/177525702-730d8c2a-ef5a-4b4b-bec6-bc3613223768.jpg)
+
